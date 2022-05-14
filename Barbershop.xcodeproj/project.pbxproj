@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87140676AB7A6A3578B4258F /* Pods_Barbershop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23110A4DC82B0B2DA9B8668 /* Pods_Barbershop.framework */; };
+		D207B1F028295D4700989E0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D207B1EF28295D4700989E0D /* AppDelegate.swift */; };
+		D207B1F228295D4700989E0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D207B1F128295D4700989E0D /* SceneDelegate.swift */; };
+		D207B1F928295D4800989E0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D207B1F828295D4800989E0D /* Assets.xcassets */; };
+		D207B1FC28295D4800989E0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D207B1FA28295D4800989E0D /* LaunchScreen.storyboard */; };
+		D207B208282960D300989E0D /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D207B207282960D300989E0D /* ModelData.swift */; };
+		D207B20A2829610500989E0D /* NoutsViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D207B2092829610500989E0D /* NoutsViewContoller.swift */; };
+		D207B20C2829610F00989E0D /* AboutvViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D207B20B2829610F00989E0D /* AboutvViewController.swift */; };
+		D207B20E2829611800989E0D /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D207B20D2829611800989E0D /* GalleryViewController.swift */; };
+		D207B2102829613300989E0D /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D207B20F2829613300989E0D /* TabBarController.swift */; };
+		D207B212282961D000989E0D /* AboutvView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D207B211282961D000989E0D /* AboutvView.swift */; };
+		D207B2142829666000989E0D /* NoutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D207B2132829666000989E0D /* NoutsView.swift */; };
+		D207B2162829666B00989E0D /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D207B2152829666B00989E0D /* GalleryView.swift */; };
+		D207B218282B109600989E0D /* CellServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = D207B217282B109600989E0D /* CellServices.swift */; };
+		D207B21A282B140100989E0D /* ServicesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D207B219282B140100989E0D /* ServicesModel.swift */; };
+		D2C414AB282CC0C500EEDD8C /* ModelCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C414AA282CC0C500EEDD8C /* ModelCollection.swift */; };
+		D2C414AE282CC0FA00EEDD8C /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C414AD282CC0FA00EEDD8C /* GalleryCollectionViewCell.swift */; };
+		D2C414B0282CC8F600EEDD8C /* ConstantAndAnyFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C414AF282CC8F600EEDD8C /* ConstantAndAnyFunc.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02869939194A25C7E3E2A081 /* Pods-Barbershop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barbershop.release.xcconfig"; path = "Target Support Files/Pods-Barbershop/Pods-Barbershop.release.xcconfig"; sourceTree = "<group>"; };
+		78B211F9A066AF4D89362EDE /* Pods-Barbershop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barbershop.debug.xcconfig"; path = "Target Support Files/Pods-Barbershop/Pods-Barbershop.debug.xcconfig"; sourceTree = "<group>"; };
+		D207B1EC28295D4700989E0D /* Barbershop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Barbershop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D207B1EF28295D4700989E0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D207B1F128295D4700989E0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D207B1F828295D4800989E0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D207B1FB28295D4800989E0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D207B1FD28295D4800989E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D207B207282960D300989E0D /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		D207B2092829610500989E0D /* NoutsViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoutsViewContoller.swift; sourceTree = "<group>"; };
+		D207B20B2829610F00989E0D /* AboutvViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutvViewController.swift; sourceTree = "<group>"; };
+		D207B20D2829611800989E0D /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		D207B20F2829613300989E0D /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		D207B211282961D000989E0D /* AboutvView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutvView.swift; sourceTree = "<group>"; };
+		D207B2132829666000989E0D /* NoutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoutsView.swift; sourceTree = "<group>"; };
+		D207B2152829666B00989E0D /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		D207B217282B109600989E0D /* CellServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellServices.swift; sourceTree = "<group>"; };
+		D207B219282B140100989E0D /* ServicesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesModel.swift; sourceTree = "<group>"; };
+		D23110A4DC82B0B2DA9B8668 /* Pods_Barbershop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Barbershop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2C414AA282CC0C500EEDD8C /* ModelCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCollection.swift; sourceTree = "<group>"; };
+		D2C414AD282CC0FA00EEDD8C /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		D2C414AF282CC8F600EEDD8C /* ConstantAndAnyFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantAndAnyFunc.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D207B1E928295D4700989E0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87140676AB7A6A3578B4258F /* Pods_Barbershop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FE9FCB4D11B2A97BAC99D7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D23110A4DC82B0B2DA9B8668 /* Pods_Barbershop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD10D72A12BA110FBA94292C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78B211F9A066AF4D89362EDE /* Pods-Barbershop.debug.xcconfig */,
+				02869939194A25C7E3E2A081 /* Pods-Barbershop.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D207B1E328295D4700989E0D = {
+			isa = PBXGroup;
+			children = (
+				D207B1EE28295D4700989E0D /* Barbershop */,
+				D207B1ED28295D4700989E0D /* Products */,
+				AD10D72A12BA110FBA94292C /* Pods */,
+				6FE9FCB4D11B2A97BAC99D7A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D207B1ED28295D4700989E0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D207B1EC28295D4700989E0D /* Barbershop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D207B1EE28295D4700989E0D /* Barbershop */ = {
+			isa = PBXGroup;
+			children = (
+				D207B2042829604800989E0D /* Model */,
+				D207B2052829605100989E0D /* View */,
+				D207B2062829605900989E0D /* Controller */,
+				D207B2032829603F00989E0D /* SupportFIle */,
+				D207B1FD28295D4800989E0D /* Info.plist */,
+			);
+			path = Barbershop;
+			sourceTree = "<group>";
+		};
+		D207B2032829603F00989E0D /* SupportFIle */ = {
+			isa = PBXGroup;
+			children = (
+				D207B1EF28295D4700989E0D /* AppDelegate.swift */,
+				D207B1F128295D4700989E0D /* SceneDelegate.swift */,
+				D207B1F828295D4800989E0D /* Assets.xcassets */,
+				D2C414AF282CC8F600EEDD8C /* ConstantAndAnyFunc.swift */,
+			);
+			path = SupportFIle;
+			sourceTree = "<group>";
+		};
+		D207B2042829604800989E0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D207B207282960D300989E0D /* ModelData.swift */,
+				D207B219282B140100989E0D /* ServicesModel.swift */,
+				D2C414AA282CC0C500EEDD8C /* ModelCollection.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D207B2052829605100989E0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D207B1FA28295D4800989E0D /* LaunchScreen.storyboard */,
+				D207B211282961D000989E0D /* AboutvView.swift */,
+				D207B2132829666000989E0D /* NoutsView.swift */,
+				D207B2152829666B00989E0D /* GalleryView.swift */,
+				D2C414AC282CC0E800EEDD8C /* GalleryViewCell */,
+				D207B21B282B19FA00989E0D /* NoutsViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D207B2062829605900989E0D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D207B2092829610500989E0D /* NoutsViewContoller.swift */,
+				D207B20B2829610F00989E0D /* AboutvViewController.swift */,
+				D207B20D2829611800989E0D /* GalleryViewController.swift */,
+				D207B20F2829613300989E0D /* TabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D207B21B282B19FA00989E0D /* NoutsViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				D207B217282B109600989E0D /* CellServices.swift */,
+			);
+			path = NoutsViewCell;
+			sourceTree = "<group>";
+		};
+		D2C414AC282CC0E800EEDD8C /* GalleryViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				D2C414AD282CC0FA00EEDD8C /* GalleryCollectionViewCell.swift */,
+			);
+			path = GalleryViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D207B1EB28295D4700989E0D /* Barbershop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D207B20028295D4800989E0D /* Build configuration list for PBXNativeTarget "Barbershop" */;
+			buildPhases = (
+				36ADD2B900B3833350F1CEC8 /* [CP] Check Pods Manifest.lock */,
+				D207B1E828295D4700989E0D /* Sources */,
+				D207B1E928295D4700989E0D /* Frameworks */,
+				D207B1EA28295D4700989E0D /* Resources */,
+				7CD74821F0D043FD641642D8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Barbershop;
+			productName = Barbershop;
+			productReference = D207B1EC28295D4700989E0D /* Barbershop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D207B1E428295D4700989E0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					D207B1EB28295D4700989E0D = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D207B1E728295D4700989E0D /* Build configuration list for PBXProject "Barbershop" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D207B1E328295D4700989E0D;
+			productRefGroup = D207B1ED28295D4700989E0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D207B1EB28295D4700989E0D /* Barbershop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D207B1EA28295D4700989E0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D207B1FC28295D4800989E0D /* LaunchScreen.storyboard in Resources */,
+				D207B1F928295D4800989E0D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36ADD2B900B3833350F1CEC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Barbershop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CD74821F0D043FD641642D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Barbershop/Pods-Barbershop-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Barbershop/Pods-Barbershop-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Barbershop/Pods-Barbershop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D207B1E828295D4700989E0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D207B20A2829610500989E0D /* NoutsViewContoller.swift in Sources */,
+				D207B2102829613300989E0D /* TabBarController.swift in Sources */,
+				D207B2142829666000989E0D /* NoutsView.swift in Sources */,
+				D207B20E2829611800989E0D /* GalleryViewController.swift in Sources */,
+				D2C414B0282CC8F600EEDD8C /* ConstantAndAnyFunc.swift in Sources */,
+				D207B208282960D300989E0D /* ModelData.swift in Sources */,
+				D2C414AE282CC0FA00EEDD8C /* GalleryCollectionViewCell.swift in Sources */,
+				D207B1F028295D4700989E0D /* AppDelegate.swift in Sources */,
+				D207B1F228295D4700989E0D /* SceneDelegate.swift in Sources */,
+				D207B21A282B140100989E0D /* ServicesModel.swift in Sources */,
+				D207B20C2829610F00989E0D /* AboutvViewController.swift in Sources */,
+				D207B212282961D000989E0D /* AboutvView.swift in Sources */,
+				D207B2162829666B00989E0D /* GalleryView.swift in Sources */,
+				D207B218282B109600989E0D /* CellServices.swift in Sources */,
+				D2C414AB282CC0C500EEDD8C /* ModelCollection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D207B1FA28295D4800989E0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D207B1FB28295D4800989E0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D207B1FE28295D4800989E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D207B1FF28295D4800989E0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D207B20128295D4800989E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78B211F9A066AF4D89362EDE /* Pods-Barbershop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 87MK9SAST8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Barbershop/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Дай доступ бро";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dimov.Barbershop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D207B20228295D4800989E0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02869939194A25C7E3E2A081 /* Pods-Barbershop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 87MK9SAST8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Barbershop/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Дай доступ бро";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dimov.Barbershop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D207B1E728295D4700989E0D /* Build configuration list for PBXProject "Barbershop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D207B1FE28295D4800989E0D /* Debug */,
+				D207B1FF28295D4800989E0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D207B20028295D4800989E0D /* Build configuration list for PBXNativeTarget "Barbershop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D207B20128295D4800989E0D /* Debug */,
+				D207B20228295D4800989E0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D207B1E428295D4700989E0D /* Project object */;
+}
